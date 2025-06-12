@@ -1,0 +1,20 @@
+.api-analyzer {
+  background: var(--dark-bg);
+  color: var(--text-light);
+}
+
+.api-content {
+  text-align: center;
+}
+
+.api-analyzer .section-title {
+  color: var(--text-light);
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.api-analyzer .section-subtitle {
+  color: #a1a1aa;
+} 

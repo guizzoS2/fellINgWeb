@@ -1,0 +1,74 @@
+.databricks {
+  background: var(--dark-bg);
+  text-align: center;
+}
+
+.databricks .section-title {
+  color: var(--text-light);
+}
+
+.databricks .section-subtitle {
+  color: #a1a1aa;
+}
+
+.evolution-timeline {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.evolution-timeline::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  right: 20%;
+  height: 2px;
+  background: var(--gradient-primary);
+  z-index: 1;
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.timeline-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--primary-orange);
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.timeline-dot.active {
+  background: var(--gradient-primary);
+  box-shadow: 0 0 20px rgba(232, 90, 27, 0.5);
+}
+
+.timeline-content h3 {
+  color: var(--text-light);
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content p {
+  color: #a1a1aa;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .evolution-timeline {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .evolution-timeline::before {
+    display: none;
+  }
+} 

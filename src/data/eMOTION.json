@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "analyzed_posts": 10,
+  "emotions": {
+    "positive": 65,
+    "neutral": 25,
+    "negative": 10
+  },
+  "insights": [
+    "Usuários respondem positivamente ao novo conteúdo",
+    "Engajamento acima da média"
+  ],
+  "recommendations": [
+    "Continuar investindo em lançamentos originais",
+    "Promover séries que geram mais engajamento"
+  ]
+} 

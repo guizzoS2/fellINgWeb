@@ -1,0 +1,264 @@
+.how-it-works {
+  background: #fafafa;
+}
+
+.process-flow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.process-step {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.step-icon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow-medium);
+  background: white;
+}
+
+.step-icon.blue {
+  border: 3px solid #3b82f6;
+}
+
+.step-icon.purple {
+  border: 3px solid #8b5cf6;
+}
+
+.step-icon.orange {
+  border: 3px solid var(--primary-orange);
+}
+
+.step-icon.green {
+  border: 3px solid #10b981;
+}
+
+.step-emoji {
+  font-size: 2rem;
+}
+
+.step-number {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: var(--gradient-primary);
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.step-content {
+  max-width: 250px;
+}
+
+.step-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.step-description {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.step-connector {
+  display: none;
+}
+
+.demo-preview {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: var(--shadow-light);
+  margin-top: 3rem;
+}
+
+.demo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.demo-header h3 {
+  color: var(--text-primary);
+  font-size: 1.2rem;
+}
+
+.demo-status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #10b981;
+}
+
+.status-dot.active {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.search-input {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.search-input input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f8f9fa;
+}
+
+.search-btn {
+  background: var(--gradient-primary);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.search-btn:hover {
+  transform: translateY(-2px);
+}
+
+.results-preview {
+  display: grid;
+  gap: 1rem;
+}
+
+.result-item {
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: #f8f9fa;
+}
+
+.post-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.subreddit {
+  color: var(--reddit-blue);
+  font-weight: 600;
+}
+
+.timestamp {
+  color: var(--text-secondary);
+}
+
+.post-content {
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
+.sentiment-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.sentiment-badge.positive {
+  background: rgba(34, 197, 94, 0.1);
+  color: #059669;
+}
+
+.sentiment-badge.negative {
+  background: rgba(239, 68, 68, 0.1);
+  color: #dc2626;
+}
+
+@media (min-width: 1024px) {
+  .process-flow {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .step-connector {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: -50%;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .connector-line {
+    height: 2px;
+    background: linear-gradient(90deg, var(--primary-orange), transparent);
+    width: 80%;
+  }
+  
+  .connector-arrow {
+    position: absolute;
+    right: 0;
+    top: -8px;
+    color: var(--primary-orange);
+    font-size: 1.2rem;
+  }
+  
+  .process-step:last-child .step-connector {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .demo-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .search-input {
+    flex-direction: column;
+  }
+} 

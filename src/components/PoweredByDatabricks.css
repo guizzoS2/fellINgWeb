@@ -1,0 +1,16 @@
+.powered-db {
+  background: var(--dark-bg);
+  text-align: center;
+  padding: 60px 0;
+}
+
+.powered-box {
+  border: 2px dashed var(--primary-orange);
+  padding: 2rem;
+  border-radius: 12px;
+  color: var(--text-light);
+}
+
+.powered-box h2 {
+  margin-bottom: 1rem;
+} 

@@ -1,0 +1,97 @@
+.emotion-section {
+  text-align: center;
+  background: var(--dark-bg);
+  color: var(--text-light);
+  padding-bottom: 4rem; /* extra space below */
+}
+
+.emotion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.json-terminal {
+  background: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: var(--shadow-medium);
+  overflow: hidden;
+}
+
+.terminal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background: #2d2d2d;
+}
+
+.terminal-buttons span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.btn-close { background: #ff5f56; }
+.btn-minimize { background: #ffbd2e; }
+.btn-maximize { background: #27c93f; }
+
+.terminal-title {
+  flex: 1;
+  text-align: left;
+  color: #fff;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.copy-btn {
+  background: var(--primary-orange);
+  color: white;
+  border: none;
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  opacity: 0.9;
+}
+
+.terminal-body {
+  max-height: 400px;
+  overflow: auto;
+  text-align: left;
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.8rem;
+  padding: 1rem;
+  color: #d4d4d4;
+}
+
+.libs-card {
+  background: #ffffff10;
+  border-radius: 12px;
+  padding: 2rem;
+  backdrop-filter: blur(4px);
+  border: 1px solid #ffffff20;
+}
+
+.libs-card h3 {
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+.libs-list li {
+  text-align: left;
+  margin-bottom: 0.5rem;
+  color: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+  .terminal-body {
+    max-height: 300px;
+  }
+} 

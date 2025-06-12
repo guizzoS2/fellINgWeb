@@ -1,0 +1,14 @@
+{
+  "keyword": "netflix",
+  "limit": 10,
+  "posts": [
+    {
+      "title": "A nova temporada está incrível!",
+      "sentiment": "positive"
+    },
+    {
+      "title": "Cancelamento foi uma decisão estranha...",
+      "sentiment": "negative"
+    }
+  ]
+} 

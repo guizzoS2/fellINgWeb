@@ -1,0 +1,82 @@
+.databricks-analysis {
+  background: var(--dark-bg);
+  color: var(--text-light);
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.databricks-analysis .section-title {
+  margin-bottom: 0.5rem;
+}
+
+.databricks-analysis .section-subtitle {
+  color: #a1a1aa;
+  margin-bottom: 3rem;
+}
+
+.analysis-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.analysis-card {
+  background: #ffffff10;
+  border: 1px solid #ffffff20;
+  border-radius: 12px;
+  padding: 1.5rem;
+  backdrop-filter: blur(4px);
+  box-shadow: var(--shadow-medium);
+}
+
+.analysis-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.analysis-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  color: var(--text-light);
+}
+
+.analysis-card p {
+  font-size: 0.9rem;
+  color: #d1d1d1;
+}
+
+.cluster-section {
+  margin-top: 2rem;
+}
+
+.cluster-title {
+  margin-bottom: 0.25rem;
+}
+
+.cluster-subtitle {
+  color: #a1a1aa;
+  margin-bottom: 1.5rem;
+}
+
+.cluster-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.cluster-images img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: var(--shadow-medium);
+}
+
+@media (max-width: 768px) {
+  .cluster-images img {
+    max-width: 100%;
+  }
+} 

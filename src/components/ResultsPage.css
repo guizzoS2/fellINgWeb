@@ -1,0 +1,24 @@
+.results-page {
+  background: var(--dark-bg);
+  color: var(--text-light);
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.json-response {
+  background: #1e1e1e;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-light);
+  text-align: left;
+  overflow-x: auto;
+  font-family: "Source Code Pro", monospace;
+  color: #d4d4d4;
+  margin-bottom: 2rem;
+}
+
+.results-wrap {
+  text-align: center;
+  padding: 4rem;
+  color: var(--text-primary);
+} 

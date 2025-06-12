@@ -1,0 +1,778 @@
+{
+  "query": "Netflix",
+  "timestamp": "2025-05-29T23:47:43.351747",
+  "platforms": [
+    "reddit"
+  ],
+  "results": [
+    {
+      "review_id": "1kt9e9i",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "customer_service",
+          "content"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We appreciate your feedback about our content.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.16105945821854908,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1hh8odz",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We value your input and are constantly working to improve our service.",
+        "urgency_score": 1
+      },
+      "confidence_scores": {
+        "sentiment": 0.2,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1kmto18",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "customer_service",
+          "content",
+          "ui"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We appreciate your feedback about our content.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.14935897435897436,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1kngny6",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We value your input and are constantly working to improve our service.",
+        "urgency_score": 1
+      },
+      "confidence_scores": {
+        "sentiment": 0.3,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1kqd0k3",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "customer_service",
+          "content",
+          "streaming",
+          "ui"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We're continuously working on improving our streaming quality and performance.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.2649621212121212,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1knc900",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "subscription",
+          "content",
+          "streaming"
+        ],
+        "response_recommendation": "Thank you for your feedback. We're continuously working on improving our streaming quality and performance.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1jwx24v",
+      "analysis": {
+        "sentiment": "negative",
+        "key_topics": [
+          "ui"
+        ],
+        "response_recommendation": "We apologize for your experience. We value your input about our user interface and design.",
+        "urgency_score": 3
+      },
+      "confidence_scores": {
+        "sentiment": 0.6,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1kvd68s",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "subscription"
+        ],
+        "response_recommendation": "Thank you for your feedback. We understand your concerns about our subscription service.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.07500000000000001,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1jclc3p",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "customer_service",
+          "content",
+          "streaming",
+          "ui"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We're continuously working on improving our streaming quality and performance.",
+        "urgency_score": 1
+      },
+      "confidence_scores": {
+        "sentiment": 0.10244755244755246,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1kg3nql",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We value your input and are constantly working to improve our service.",
+        "urgency_score": 1
+      },
+      "confidence_scores": {
+        "sentiment": 0.25000000000000006,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1k7fxk5",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your feedback. We value your input and are constantly working to improve our service.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1je39r7",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "ui"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We value your input about our user interface and design.",
+        "urgency_score": 1
+      },
+      "confidence_scores": {
+        "sentiment": 0.8,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1k78887",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We value your input and are constantly working to improve our service.",
+        "urgency_score": 1
+      },
+      "confidence_scores": {
+        "sentiment": 0.2,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1ktfd41",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your feedback. We value your input and are constantly working to improve our service.",
+        "urgency_score": 3
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1gslsg1",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We value your input and are constantly working to improve our service.",
+        "urgency_score": 1
+      },
+      "confidence_scores": {
+        "sentiment": 0.4166666666666667,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1koplr4",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "subscription",
+          "content",
+          "streaming"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We're continuously working on improving our streaming quality and performance.",
+        "urgency_score": 1
+      },
+      "confidence_scores": {
+        "sentiment": 0.3333333333333333,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1jwndpq",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "content"
+        ],
+        "response_recommendation": "Thank you for your feedback. We appreciate your feedback about our content.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1kfbgrg",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "subscription",
+          "content",
+          "streaming"
+        ],
+        "response_recommendation": "Thank you for your feedback. We're continuously working on improving our streaming quality and performance.",
+        "urgency_score": 3
+      },
+      "confidence_scores": {
+        "sentiment": 0.019166666666666665,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1ijb94d",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your feedback. We value your input and are constantly working to improve our service.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1juj2q4",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "content",
+          "streaming",
+          "ui"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We're continuously working on improving our streaming quality and performance.",
+        "urgency_score": 1
+      },
+      "confidence_scores": {
+        "sentiment": 0.13432708641569402,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1k75qlt",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your feedback. We value your input and are constantly working to improve our service.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.1,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1fyx76n",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "content"
+        ],
+        "response_recommendation": "Thank you for your feedback. We appreciate your feedback about our content.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1imaspj",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your feedback. We value your input and are constantly working to improve our service.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.05000000000000001,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1hvjswd",
+      "analysis": {
+        "sentiment": "negative",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "We apologize for your experience. We value your input and are constantly working to improve our service.",
+        "urgency_score": 3
+      },
+      "confidence_scores": {
+        "sentiment": 0.2153846153846154,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1knynl5",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your feedback. We value your input and are constantly working to improve our service.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1f1orrr",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your feedback. We value your input and are constantly working to improve our service.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1ijykfj",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your feedback. We value your input and are constantly working to improve our service.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1kxmn58",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your feedback. We value your input and are constantly working to improve our service.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1fvooyv",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "content"
+        ],
+        "response_recommendation": "Thank you for your feedback. We appreciate your feedback about our content.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1jagzeq",
+      "analysis": {
+        "sentiment": "negative",
+        "key_topics": [
+          "content"
+        ],
+        "response_recommendation": "We apologize for your experience. We appreciate your feedback about our content.",
+        "urgency_score": 3
+      },
+      "confidence_scores": {
+        "sentiment": 0.16666666666666666,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1kv7cb5",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your feedback. We value your input and are constantly working to improve our service.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1jqfo6p",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "content"
+        ],
+        "response_recommendation": "Thank you for your feedback. We appreciate your feedback about our content.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1cgde33",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We value your input and are constantly working to improve our service.",
+        "urgency_score": 1
+      },
+      "confidence_scores": {
+        "sentiment": 0.30932539682539684,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1fl0ay6",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "content"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We appreciate your feedback about our content.",
+        "urgency_score": 1
+      },
+      "confidence_scores": {
+        "sentiment": 0.13636363636363635,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1juoi6r",
+      "analysis": {
+        "sentiment": "negative",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "We apologize for your experience. We value your input and are constantly working to improve our service.",
+        "urgency_score": 3
+      },
+      "confidence_scores": {
+        "sentiment": 0.4,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1jxldn4",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "ui"
+        ],
+        "response_recommendation": "Thank you for your feedback. We value your input about our user interface and design.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1itikv7",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "content"
+        ],
+        "response_recommendation": "Thank you for your feedback. We appreciate your feedback about our content.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1cqo5x3",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your feedback. We value your input and are constantly working to improve our service.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1k7u4rd",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "content"
+        ],
+        "response_recommendation": "Thank you for your feedback. We appreciate your feedback about our content.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1iyja3e",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "ui",
+          "streaming"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We're continuously working on improving our streaming quality and performance.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.18240740740740743,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1gtnboj",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "Thank you for your feedback. We value your input and are constantly working to improve our service.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1dsse4n",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "subscription"
+        ],
+        "response_recommendation": "Thank you for your feedback. We understand your concerns about our subscription service.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.02121212121212122,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1klrfg2",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "content",
+          "streaming"
+        ],
+        "response_recommendation": "Thank you for your feedback. We're continuously working on improving our streaming quality and performance.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.05302197802197801,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1fi2g98",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "technical"
+        ],
+        "response_recommendation": "Thank you for your feedback. Our team is investigating the technical issues and working on a fix.",
+        "urgency_score": 3
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1duf941",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "subscription"
+        ],
+        "response_recommendation": "Thank you for your feedback. We understand your concerns about our subscription service.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1kwmni0",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "content"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We appreciate your feedback about our content.",
+        "urgency_score": 1
+      },
+      "confidence_scores": {
+        "sentiment": 0.35714285714285715,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1ev98lt",
+      "analysis": {
+        "sentiment": "mixed",
+        "key_topics": [
+          "content"
+        ],
+        "response_recommendation": "Thank you for your feedback. We appreciate your feedback about our content.",
+        "urgency_score": 2
+      },
+      "confidence_scores": {
+        "sentiment": 0.0,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1kg4csp",
+      "analysis": {
+        "sentiment": "negative",
+        "key_topics": [
+          "general"
+        ],
+        "response_recommendation": "We apologize for your experience. We value your input and are constantly working to improve our service.",
+        "urgency_score": 3
+      },
+      "confidence_scores": {
+        "sentiment": 0.16666666666666666,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1cssosy",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "ui"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We value your input about our user interface and design.",
+        "urgency_score": 1
+      },
+      "confidence_scores": {
+        "sentiment": 0.6000000000000001,
+        "topic_accuracy": 0.85
+      }
+    },
+    {
+      "review_id": "1ju0prn",
+      "analysis": {
+        "sentiment": "positive",
+        "key_topics": [
+          "subscription"
+        ],
+        "response_recommendation": "Thank you for your positive feedback! We understand your concerns about our subscription service.",
+        "urgency_score": 1
+      },
+      "confidence_scores": {
+        "sentiment": 0.2,
+        "topic_accuracy": 0.85
+      }
+    }
+  ]
+}
