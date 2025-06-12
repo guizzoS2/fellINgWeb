@@ -3,7 +3,6 @@ import './PowerBIDashboards.css';
 
 // Image imports – Power BI dashboard screenshots
 import barsImg from '../img/db/bars.png';
-import erModelImg from '../img/db/erModel.png';
 import growthImg from '../img/db/growth.png';
 import pizzaImg from '../img/db/pizza.png';
 
