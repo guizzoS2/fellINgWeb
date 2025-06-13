@@ -55,12 +55,8 @@ const Hero = () => {
 
             <div className="hero-stats">
               <div className="stat">
-                <span className="stat-number">1M+</span>
+                <span className="stat-number">100+</span>
                 <span className="stat-label">Posts Analisados</span>
-              </div>
-              <div className="stat">
-                <span className="stat-number">95%</span>
-                <span className="stat-label">Precisão</span>
               </div>
               <div className="stat">
                 <span className="stat-number">24/7</span>
